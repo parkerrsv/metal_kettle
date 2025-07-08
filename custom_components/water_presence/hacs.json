@@ -1,0 +1,7 @@
+{
+  "name": "Water Presence Detection",
+  "content_in_root": false,
+  "domains": ["sensor"],
+  "country": "US",
+  "homeassistant": ">=2023.0.0"
+}

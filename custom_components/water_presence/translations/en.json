@@ -1,0 +1,10 @@
+{
+  "title": "Water Presence Detection",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Water Presence Detection"
+      }
+    }
+  }
+}
