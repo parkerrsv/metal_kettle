@@ -1,7 +1,7 @@
 {
   "domain": "water_presence",
   "name": "Water Presence Detection",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "documentation": "https://github.com/yourusername/water_presence",
   "requirements": [],
   "dependencies": [],
