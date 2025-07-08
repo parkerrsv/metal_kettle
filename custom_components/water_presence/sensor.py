@@ -1,13 +1,12 @@
 # Sensor platform for water presence detection
 
 from homeassistant.components.sensor import SensorEntity
-from homeassistant.const import TEMP_CELSIUS
 from homeassistant.helpers.event import async_track_state_change_event
 from homeassistant.helpers.restore_state import RestoreEntity
 from .const import DOMAIN
 
-DEVICE_STATUS_ENTITY = "switch.kettle_power"  # Placeholder, update as needed
-TEMPERATURE_ENTITY = "sensor.kettle_temperature"  # Placeholder, update as needed
+DEVICE_STATUS_ENTITY = "switch.kettle_power"  # Update if your power entity is different
+TEMPERATURE_ENTITY = "sensor.smart_kettle_current_temperature"
 
 async def async_setup_platform(hass, config, async_add_entities, discovery_info=None):
     async_add_entities([WaterPresenceSensor(hass)], True)
